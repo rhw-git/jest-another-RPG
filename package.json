@@ -4,7 +4,7 @@
   "description": "an RPG with characters, enemies, and a game object",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/rhw-git/jest-another-RPG/issues"
   },
-  "homepage": "https://github.com/rhw-git/jest-another-RPG#readme"
+  "homepage": "https://github.com/rhw-git/jest-another-RPG#readme",
+  "devDependencies": {
+    "jest": "^26.1.0"
+  }
 }
